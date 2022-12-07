@@ -1,8 +1,7 @@
 {
-  "homepage": "https://omgupta12.github.io",
-  "name": "om-portfolio",
+  "homepage": "https://shivamsherje.github.io",
+  "name": "shivamsherje-portfolio",
   "version": "1.0.0",
-  "description": "Link : imbickydutta.netlify.app",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -14,7 +13,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-fade-in": "^2.0.1",
-    "react-github-calendar": "3.1.2",
+    "react-github-calendar": "^3.4.0",
     "react-icons": "4.3.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.0",

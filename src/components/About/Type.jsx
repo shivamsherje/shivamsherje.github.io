@@ -4,15 +4,15 @@ import Typewriter from "typewriter-effect";
 
 export const Type = () => {
   return (
-    <>
+    <div className="typewriter">
       <Typewriter
         options={{
           strings: ["A Full Stack Web Developer", "A MERN Stack Developer"],
           autoStart: true,
           loop: true,
-          deleteSpeed: 50
+          deleteSpeed: 50,
         }}
       />
-    </>
+    </div>
   );
 };

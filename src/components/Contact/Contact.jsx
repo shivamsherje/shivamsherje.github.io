@@ -20,7 +20,7 @@ export const Contact = () => {
 
         <div className={"contactcontainer " + themename} data-aos="fade-right">
           <a
-            href="https://www.linkedin.com/in/om-prakash-gupta-43885b1b7/"
+            href="https://www.linkedin.com/in/shivam-sherje-996124138/"
             target="_blank"
             rel="noreferrer"
           >
@@ -28,7 +28,7 @@ export const Contact = () => {
           </a>
 
           <a
-            href="https://github.com/Omgupta12"
+            href="https://github.com/shivamsherje"
             target="_blank"
             rel="noreferrer"
           >
@@ -36,14 +36,14 @@ export const Contact = () => {
           </a>
 
           <a
-            href="mailto:omprakash1997242@gmail.com"
+            href="mailto:sherjes49@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
             <CgMail className="email" />
           </a>
           
-          <a href="tel:+917985763638" target="_blank" rel="noreferrer">
+          <a href="tel:+917263911096" target="_blank" rel="noreferrer">
             <BsFillTelephoneFill className="phone" />
           </a>
         </div>

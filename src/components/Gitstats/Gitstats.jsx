@@ -10,9 +10,9 @@ const Gitstats = () => {
       <h2 className="section__title different" style={{ color: " #80618c" }} >GitHub Stats</h2>
 
       <div className="gitstat-status" >
-        <img src="https://streak-stats.demolab.com/?user=Omgupta12&theme=buefy)" />
+        <img src="https://streak-stats.demolab.com/?user=shivamsherje&theme=buefy)" />
         <img alt="Omgupta12 stats"
-          src="https://github-readme-stats.vercel.app/api?username=Omgupta12&show_icons=true&theme=algolia&count_private=true" />
+          src="https://github-readme-stats.vercel.app/api?username=shivamsherje&show_icons=true&theme=algolia&count_private=true" />
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Introduction.css";
-import om from "../../Assets/images/Om.jpeg";
+import om from "../../Assets/images/Om.jpg";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 
@@ -16,29 +16,23 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img
-                src={om}
-                alt="Images"
-              />
+              <img src={om} alt="Images" />
             </div>
-            <div className="introduction_datacontainer">
+            <div  style={{  textAlign: "justify"}} className="introduction_datacontainer">
               <h4>
-                Hi, I am{" "}
-                <span className="different">Om Prakash Gupta </span> from{" "}
-                <span className="different">Raebareli, Uttar Pradesh</span>. I
-                have completed my graduation in Electrical & Electronics Engineering from
-               Dr.A.P.J Abdul Kalam Technical University, Lucknow, Uttar Pradesh.  
-                A Full-stack web developer with strong technical skills. An impactful team player with creative problem - solving skills and willing to build user - friendly products. Looking for a role as a developer to implement diverse experience and be a part of a growth-oriented environment.
+                Hi, I am <span className="different">Shivam Sherje </span> from{" "}
+                <span className="different">Nagpur, Maharashtra</span>. <br/>I am a
+                Full-Stack Web Developer from India with a Mechanical
+                Engineering degree. I enjoy creating scalable web applications
+                and am constantly interested in learning new technologies. Using
+                Javascript, React , CSS , HTML , I created clones of a few
+                websites. I have developed excellent problem-solving skills that
+                are required to solve complex problems because I am eager to
+                learn and apply my abilities on a large scale. I have also
+                solved maths problems to solve software engineering problems.
+                Looking for a role as web developer and hoping to contribute to
+                the growth of an organisation.
               </h4>
-              <h4>Some of my interests apart form Coding :</h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Playing Volleyball & Cricket{" "}
-              </h4>
-              <button >Resume</button>
-            
             </div>
           </div>
         </div>

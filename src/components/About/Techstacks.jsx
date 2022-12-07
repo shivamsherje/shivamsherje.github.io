@@ -9,7 +9,8 @@ import {
   SiRedis,
   SiTailwindcss,
   SiNetlify,
-  SiPostman
+  SiPostman,
+  SiChakraui
 } from "react-icons/si";
 
 import { DiCss3, DiMongodb } from "react-icons/di";
@@ -67,9 +68,15 @@ export const Techstacks = () => {
             <VscGithub />
             <h5>Github</h5>
           </div>
+
           <div>
-            <SiPostman />
-            <h5>Postman</h5>
+            <SiNetlify />
+            <h5>Netlify</h5>
+          </div>
+      
+          <div>
+            <SiChakraui/>
+            <h5>Chakraui</h5>
           </div>
         </div>
       </div>

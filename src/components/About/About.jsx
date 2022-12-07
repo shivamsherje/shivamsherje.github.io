@@ -15,17 +15,17 @@ export const About = () => {
       <div className="about center">
         <h1 data-aos="fade-right">
          <span className="about__hi"> Hi, I am </span>
-          <span className="about__name">Om Prakash Gupta</span>
+          <span className="about__name">Shivam sherje</span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right" style={{"fontFamily":"'Poppins', sans-serif"}}>
+        <p  className="about__desc" data-aos="fade-right" style={{"fontFamily":"'Poppins', sans-serif" , textAlign:"justify"}}>
           A Full Stack Developer who loves solving problems and building
           projects. I am equipped with a variety of technologies and tools to
           help me build the best possible product.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Omgupta12"
+            href="https://github.com/shivamsherje"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -34,7 +34,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:omprakash1997242@gmail.com"
+            href="mailto:shivamsherje@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="github"
@@ -43,7 +43,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+917985763638"
+            href="tel:+917263911096"
             target="_blank"
             rel="noreferrer"
             aria-label="github"
@@ -52,7 +52,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/om-prakash-gupta-43885b1b7/"
+            href="https://www.linkedin.com/in/shivam-sherje-996124138/"
             aria-label="github"
             className="link link--icon"
             target="_blank"

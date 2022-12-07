@@ -23,7 +23,7 @@ export const Github = () => {
           Days I <span className="different"> Code</span>
         </h2>
         <Githubcalendar
-          username="Omgupta12"
+          username="shivamsherje"
           blockSize={15}
           blockMargin={5}
          color={ "#80618c"}

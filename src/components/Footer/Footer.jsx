@@ -8,8 +8,8 @@ export const Footer = () => {
   return (
     <>
       <div className={"section " + themename}>
-        <a href="https://github.com/Omgupta12" rel="noreferrer" target="_blank">
-          <h3 className="footer">Made By :- Om Prakash Gupta</h3>
+        <a href="https://github.com/shivamsherje" rel="noreferrer" target="_blank">
+          <h3 className="footer">Made By :- Shivam Sherje 🌻</h3>
         </a>
       </div>
     </>

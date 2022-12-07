@@ -14,7 +14,7 @@ import "./Header.css";
         
         <h3>
           <a href="#home" className="link">
-           Om 
+          Shivam
           </a>
         </h3>
         <Navbar />

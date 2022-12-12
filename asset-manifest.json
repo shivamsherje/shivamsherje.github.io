@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.4eb0c130.css",
-    "main.js": "/static/js/main.0027fe22.js",
+    "main.js": "/static/js/main.22416b63.js",
     "static/media/Bluefly-2.png": "/static/media/Bluefly-2.038acf5e41e18686a94a.png",
     "static/media/Bluefly.png": "/static/media/Bluefly.53b91dcacaa99f8b79f5.png",
     "static/media/Pluralsight.png": "/static/media/Pluralsight.309a6df90c90205b186f.png",
     "static/media/Gymwolf.png": "/static/media/Gymwolf.485e12d1dd1e2c344018.png",
     "static/media/Nordstrom.png": "/static/media/Nordstrom.943e6f05df9cf755ae2e.png",
-    "static/media/Shivam_Sherje_Resume.pdf": "/static/media/Shivam_Sherje_Resume.a243dfa5277ffe53f92a.pdf",
     "static/media/Om.jpg": "/static/media/Om.0a750ee73d1dfb8a451e.jpg",
     "static/media/eduPurple.svg": "/static/media/eduPurple.b06b4e8eda03db2a97b1fa88860ea0fa.svg",
     "static/media/eduImgBlack.svg": "/static/media/eduImgBlack.8ee2e691e27f81b89b1aa08acc85cfe6.svg",
     "index.html": "/index.html",
     "main.4eb0c130.css.map": "/static/css/main.4eb0c130.css.map",
-    "main.0027fe22.js.map": "/static/js/main.0027fe22.js.map"
+    "main.22416b63.js.map": "/static/js/main.22416b63.js.map"
   },
   "entrypoints": [
     "static/css/main.4eb0c130.css",
-    "static/js/main.0027fe22.js"
+    "static/js/main.22416b63.js"
   ]
 }

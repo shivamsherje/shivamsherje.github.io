@@ -15,7 +15,7 @@ export const About = () => {
       <div className="about center">
         <h1 data-aos="fade-right">
          <span className="about__hi"> Hi, I am </span>
-          <span className="about__name">Shivam sherje</span>
+          <span className="about__name">Shivam Sherje</span>
         </h1>
         <Type />
         <p  className="about__desc" data-aos="fade-right" style={{"fontFamily":"'Poppins', sans-serif" , textAlign:"justify"}}>

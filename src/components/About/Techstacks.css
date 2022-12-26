@@ -25,12 +25,13 @@
   transition: all 0.5s ease 0s;
 }
 .techsection > div:hover {
-  background-color: var(--clr-bg);
+  background-color: #128fc8;
   overflow: hidden;
-  transform: scale(1.08);
+  transform: scale(1.09);
   box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  border: 1px solid var(--clr-primary);
+  /* border: 1px solid var(--clr-primary); */
+  
 }
 
 .techsection > div > svg {
@@ -46,7 +47,7 @@
 
 @media (max-width: 600px) {
   .techsection {
-    height: 120vh;
+    height: 150vh;
   }
   .techsection > div {
     width: 40%;
@@ -54,4 +55,6 @@
     margin-bottom: 2%;
     height: 18vh;
   }
+
+  
 }

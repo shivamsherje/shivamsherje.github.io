@@ -5,11 +5,13 @@
   outline: 0;
   background-color: inherit;
   color: inherit;
+  font-weight: lighter;
   font-family: inherit;
   font-size: inherit;
   box-shadow: none;
   box-sizing: border-box;
-  background-color:  #eaeaea;
+  /* background-color:  #eaeaea; */
+  color: #eaeaea;
 }
 
 html {

@@ -3,10 +3,12 @@
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
-  background-color: var(--clr-bg);
+  /* background-color: var(--clr-bg); */
+  /* background-color: #21D4FD; */
+  background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
 }
 
-.light {
+/* .light {
   --clr-bg: 
   #eaeaea;
   --clr-bg-alt:  #eaeaea;
@@ -15,7 +17,7 @@
   --clr-primary:
   #80618c;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
 
 .dark {
   --clr-bg: #23283e;

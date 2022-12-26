@@ -23,60 +23,60 @@ export const Techstacks = () => {
   return (
     <>
       <div className="section main" data-aos="fade-right">
-        <h2 className="section__title different">Tech Stack & Tools</h2>
+        <h2 style={{color:"#128FC8"}}  className="section__title different">Tech Stack & Tools</h2>
         <div className="techsection">
-          <div>
-            <SiJavascript />
-            <h5>Javascript</h5>
+          <div >
+            <SiJavascript  />
+            <h5 className="techname" style={{color:"yellowgreen"}}>Javascript</h5>
           </div>
           <div>
             <SiHtml5 />
-            <h5>HTML</h5>
+            <h5 style={{color:"yellowgreen"}}>HTML</h5>
           </div>
           <div>
             <DiCss3 />
-            <h5>CSS</h5>
+            <h5 style={{color:"yellowgreen"}}>CSS</h5>
           </div>
           <div>
             <FaReact />
-            <h5>React</h5>
+            <h5 style={{color:"yellowgreen"}}>React</h5>
           </div>
           <div>
             <FaNodeJs />
-            <h5>Nodejs</h5>
+            <h5 style={{color:"yellowgreen"}}>Nodejs</h5>
           </div>
           <div>
             <DiMongodb />
-            <h5>MongoDb</h5>
+            <h5 style={{color:"yellowgreen"}}>MongoDb</h5>
           </div>
 
           <div>
             <SiExpress />
-            <h5>Express</h5>
+            <h5 style={{color:"yellowgreen"}}>Express</h5>
           </div>
 
           <div>
             <SiRedux />
-            <h5>Redux</h5>
+            <h5 style={{color:"yellowgreen"}}>Redux</h5>
           </div>
 
           <div>
             <SiMaterialui />
-            <h5>Material Ui</h5>
+            <h5 style={{color:"yellowgreen"}}>Material Ui</h5>
           </div>        
           <div>
             <VscGithub />
-            <h5>Github</h5>
+            <h5 style={{color:"yellowgreen"}}>Github</h5>
           </div>
 
           <div>
             <SiNetlify />
-            <h5>Netlify</h5>
+            <h5 style={{color:"yellowgreen"}}>Netlify</h5>
           </div>
       
           <div>
             <SiChakraui/>
-            <h5>Chakraui</h5>
+            <h5 style={{color:"yellowgreen"}}>Chakraui</h5>
           </div>
         </div>
       </div>

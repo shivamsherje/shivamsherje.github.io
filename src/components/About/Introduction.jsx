@@ -11,15 +11,15 @@ export const Introduction = () => {
     <>
       <section id="#about">
         <div className="section" data-aos="fade-right">
-          <h2 className="section__title">
-            About <span className="different">Me</span>
+          <h2 style={{color:"#128FC8"}} className="section__title">
+            About Me
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
               <img src={om} alt="Images" />
             </div>
-            <div  style={{  textAlign: "justify"}} className="introduction_datacontainer">
-              <h4>
+            <div  style={{  textAlign: "justify", fontWeight:"lighter", marginRight:"10px"}} className="introduction_datacontainer">
+              <p >
                 Hi, I am <span className="different">Shivam Sherje </span> from{" "}
                 <span className="different">Nagpur, Maharashtra</span>. <br/>I am a
                 Full-Stack Web Developer from India with a Mechanical
@@ -32,7 +32,7 @@ export const Introduction = () => {
                 solved maths problems to solve software engineering problems.
                 Looking for a role as web developer and hoping to contribute to
                 the growth of an organisation.
-              </h4>
+              </p>
             </div>
           </div>
         </div>

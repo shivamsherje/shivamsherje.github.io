@@ -18,7 +18,7 @@ export default function App() {
 
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 200 });
   }, []);
 
   return (
@@ -28,17 +28,19 @@ export default function App() {
       </section>
       <main style={{ marginTop:"13%", backgroundColor: "transparent"}}>
         <About />
-        <Github />
-        <Gitstats/>
+       
         <Education/>
         {/* <Techstacks/> */}
         <section id="#projects">
           <Projects />
         </section>
+        <Github />
+        <Gitstats/>
         <section id="#contact">
           <Contact />
         </section>
       </main>
+     
       <Footer />
       <ScrollToTop />
     </div>

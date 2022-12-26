@@ -21,7 +21,7 @@ export const Projects = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title different" data-aos="fade-right">
+        <h2 style={{color:"#128FC8"}}  className="section__title different" data-aos="fade-right">
           Projects
         </h2>
 
@@ -33,13 +33,13 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2> Sendinblue Clone</h2>
+              <h2 style={{color:"yellowgreen"}}>  Mailchimp Clone</h2>
               <p>
-                Sendinblue is a platform that offers marketing and sales tools
-                for growing small businesses.
+               Mailchimp is a platform that offers marketing and sales tools
+                for growing your businesses.
                 <p
                   style={{
-                    color: " #80618c",
+                    color: " #8F8F8F",
                     marginTop: "30px",
                     marginBottom: "-10px",
                   }}
@@ -51,29 +51,30 @@ export const Projects = () => {
               <div>
                 {/* < SiMongodb /> */}
                 {/* <SiExpress /> */}
-                {/* <FaReact /> */}
-                <SiNodedotjs />
-                <SiJavascript />
-                {/* <SiChakraui /> */}
                 <SiHtml5 />
                 <SiCss3 />
+                <FaReact />
+                {/* <SiNodedotjs /> */}
+                <SiJavascript />
+                <SiChakraui />
+                
               </div>
               <div>
                 <a
-                  href="https://melodious-moonbeam-432af3.netlify.app/"
+                  href="https://rad-semolina-cd66f1.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <span type="button"  style={{color:"#2ECBE9"}} className="btn btn--outline onbt">
                     See this Live
                   </span>
                 </a>
                 <a
-                  href="https://github.com/skshm2000/silly-ink-340"
+                  href="https://github.com/shivamsherje/delightful-animal-1301"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <span type="button"  style={{color:"#2ECBE9"}} className="btn btn--outline">
                     View Code
                   </span>
                 </a>
@@ -90,13 +91,13 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Bewakoof Clone</h2>
+              <h2 style={{color:"yellowgreen"}}>Bewakoof Clone</h2>
               <p>
                 Bewakoof is an Online Shopping site for Men and Women Clothing.
                 Shop from a wide range of T-shirts, Mobile Covers, Accessories.
                 <p
                   style={{
-                    color: " #80618c",
+                    color: " #8F8F8F",
                     marginTop: "30px",
                     marginBottom: "-10px",
                   }}
@@ -117,7 +118,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <span type="button"  style={{color:"#2ECBE9"}} className="btn btn--outline onbt">
                     See this Live
                   </span>
                 </a>
@@ -126,7 +127,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <span type="button"  style={{color:"#2ECBE9"}} className="btn btn--outline">
                     View Code
                   </span>
                 </a>
@@ -143,13 +144,13 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2 style={{fontSize:"30px"}}> Anthropologie Clone</h2>
+              <h2 style={{fontSize:"30px", color:"yellowgreen"}}> Anthropologie Clone</h2>
               <p>
                 Anthropologie is a shopping website for clothing, jewelry,
                 home furniture, decoration, beauty products,gifts and more.
                 <p
                   style={{
-                    color: " #80618c",
+                    color: " #8F8F8F",
                     marginTop: "15px",
                     marginBottom: "-5px",
                   }}
@@ -170,7 +171,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <span type="button"  style={{color:"#2ECBE9"}} className="btn btn--outline onbt">
                     See this Live
                   </span>
                 </a>
@@ -179,7 +180,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <span type="button"  style={{color:"#2ECBE9"}} className="btn btn--outline">
                     View Code
                   </span>
                 </a>
@@ -196,13 +197,13 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Dot and Key Clone</h2>
+              <h2 style={{color:"yellowgreen"}}>Dot and Key Clone</h2>
               <p>
               Dot and Key is an Indian Skincare brand has a wide
               range of products ranging from face washes to serums.
                 <p
                   style={{
-                    color: " #80618c",
+                    color: " #8F8F8F",
                     marginTop: "20px",
                     marginBottom: "-5px",
                   }}
@@ -223,7 +224,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <span type="button"  style={{color:"#2ECBE9"}} className="btn btn--outline onbt">
                     See this Live
                   </span>
                 </a>
@@ -232,7 +233,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <span type="button"  style={{color:"#2ECBE9"}} className="btn btn--outline">
                     View Code
                   </span>
                 </a>

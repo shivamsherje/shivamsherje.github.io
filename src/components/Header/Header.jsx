@@ -6,14 +6,14 @@ import "./Header.css";
 
 
  const Header = () => {
-  const [{ themename }] = React.useContext(ThemeContext);
+  // const [{ themename }] = React.useContext(ThemeContext);
 
   return (
    
-      <div className="header">
+      <div style={{ backgroundColor:"#128FC8"}} className="header">
         
-        <h3>
-          <a href="#home" className="link">
+        <h3 style={{ backgroundColor:"#128FC8"}} className="namemy">
+          <a style={{ backgroundColor:"#128FC8"}} href="#home" className="link">
           Shivam
           </a>
         </h3>

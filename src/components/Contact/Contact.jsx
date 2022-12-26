@@ -14,8 +14,8 @@ export const Contact = () => {
     <>
       <div className="section">
 
-        <h2 className="section__title" data-aos="fade-right">
-          Get in <span className="different">Touch with</span>
+        <h2 className="section__title" style={{color:"#128FC8"}}  data-aos="fade-right">
+          Get in Touch with
         </h2>
 
         <div className={"contactcontainer " + themename} data-aos="fade-right">

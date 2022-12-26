@@ -6,9 +6,13 @@
 .nav__list {
   margin-right: 1.5em;
   display: flex;
+  
+background-color:#128FC8
 }
 .nav__list-item {
   margin-left: 1.5em;
+  background-color:#128FC8
+
 }
 .app .nav__hamburger {
   display: none;

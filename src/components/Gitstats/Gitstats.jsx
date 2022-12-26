@@ -7,7 +7,7 @@ const Gitstats = () => {
   // const { theme } = useContext(ThemeContext);
   return (
     <div  data-aos="fade-right" style={{ "textAlign": "center", marginTop: "2rem" }}>
-      <h2 className="section__title different" style={{ color: " #80618c" }} >GitHub Stats</h2>
+      <h2 className="section__title different" style={{color:"#128FC8"}}  >GitHub Stats</h2>
 
       <div className="gitstat-status" >
         <img src="https://streak-stats.demolab.com/?user=shivamsherje&theme=dark)" />

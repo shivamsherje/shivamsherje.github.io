@@ -19,13 +19,13 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav className="center_nav">
-        <ul
+      <nav style={{ backgroundColor:"#128FC8"}} className="center_nav">
+        <ul 
           style={{ display: showNavList ? "flex" : null }}
           className="nav__list"
         >
-          <li className="nav__list-item">
-            <a
+          <li className="nav__list-item" >
+            <a style={{ backgroundColor:"#128FC8"}}
               href="#home"
               onClick={() => toggleNavList("#home")}
               className="link link--nav"
@@ -35,6 +35,7 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
+            style={{ backgroundColor:"#128FC8"}}
               href="#about"
               onClick={() => toggleNavList("#about")}
               className="link link--nav"
@@ -44,6 +45,7 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
+            style={{ backgroundColor:"#128FC8"}}
               href="#skills"
               onClick={() => toggleNavList("#skills")}
               className="link link--nav"
@@ -53,6 +55,7 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
+            style={{ backgroundColor:"#128FC8"}}
               href="#projects"
               onClick={() => toggleNavList("#projects")}
               className="link link--nav"
@@ -62,6 +65,7 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
+            style={{ backgroundColor:"#128FC8"}}
               href="#contact"
               onClick={() => toggleNavList("#contact")}
               className="link link--nav"
@@ -70,7 +74,8 @@ export const Navbar = () => {
             </a>
           </li>
           <li className="nav__list-item">
-            <a
+            <a 
+            style={{ backgroundColor:"#128FC8"}}
               href="https://drive.google.com/file/d/1kX2R29HLrfiGPsctH7j4LAhke7q_Rv3J/view?usp=share_link"
               onClick={toggleNavList}
               className="link link--nav"

@@ -1,4 +1,11 @@
 .introduction {
+  border-top-left-radius: 50px ;
+  border-bottom-right-radius: 50px ;
+  border: 1px solid #128fc8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+
   width: 100%;
   display: flex;
   gap: 70px;
@@ -18,7 +25,7 @@
 }
 
 .introduction_logocontainer > img {
-  width: 70%;
+  width: 90%;
   height: 100%;
   /* padding-bottom: 20px; */
   border-radius: 50%;
@@ -26,7 +33,7 @@
 
 .introduction_datacontainer {
   flex-basis: 55%;
-
+font-size: 19px;
 }
 
 .introduction_datacontainer > h4:nth-child(1) {
@@ -39,7 +46,7 @@
 }
 
 .introduction_datacontainer > h4 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-top: 0.5em;
 }
 

@@ -19,7 +19,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav style={{ backgroundColor:"#128FC8"}} className="center_nav">
+      <nav style={{ backgroundColor:"#128FC8" }} className="center_nav">
         <ul 
           style={{ display: showNavList ? "flex" : null }}
           className="nav__list"

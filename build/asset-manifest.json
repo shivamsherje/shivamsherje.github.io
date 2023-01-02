@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.8aebc734.css",
-    "main.js": "/static/js/main.36a0c385.js",
+    "main.css": "/static/css/main.fde96aa2.css",
+    "main.js": "/static/js/main.496afc59.js",
     "static/media/Bluefly-2.png": "/static/media/Bluefly-2.038acf5e41e18686a94a.png",
     "static/media/Bluefly.png": "/static/media/Bluefly.53b91dcacaa99f8b79f5.png",
     "static/media/Pluralsight.png": "/static/media/Pluralsight.309a6df90c90205b186f.png",
     "static/media/Gymwolf.png": "/static/media/Gymwolf.485e12d1dd1e2c344018.png",
     "static/media/Nordstrom.png": "/static/media/Nordstrom.fdcf23b57fb308149139.png",
+    "static/media/netlify-logo-png-transparent.png": "/static/media/netlify-logo-png-transparent.603ef81c872f9df8c343.png",
+    "static/media/png-transparent-js-logo-node-logos-and-brands-icon.png": "/static/media/png-transparent-js-logo-node-logos-and-brands-icon.637f7fcf99c0c459c2ce.png",
     "static/media/Om.jpg": "/static/media/Om.0a750ee73d1dfb8a451e.jpg",
-    "static/media/eduPurple.svg": "/static/media/eduPurple.1f222b485aa68921f042feb9db6b3885.svg",
+    "static/media/express.png": "/static/media/express.2f95af4948cdac0a3451.png",
+    "static/media/giphy.webp": "/static/media/giphy.4ac0157ff996c47acbe9.webp",
+    "static/media/chakraui.png": "/static/media/chakraui.9132f0faa65f24438cfb.png",
+    "static/media/mongodb.svg": "/static/media/mongodb.6835c61a518a732eb8318d43dfe8f700.svg",
     "static/media/eduImgBlack.svg": "/static/media/eduImgBlack.8ee2e691e27f81b89b1aa08acc85cfe6.svg",
     "index.html": "/index.html",
-    "main.8aebc734.css.map": "/static/css/main.8aebc734.css.map",
-    "main.36a0c385.js.map": "/static/js/main.36a0c385.js.map"
+    "main.fde96aa2.css.map": "/static/css/main.fde96aa2.css.map",
+    "main.496afc59.js.map": "/static/js/main.496afc59.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aebc734.css",
-    "static/js/main.36a0c385.js"
+    "static/css/main.fde96aa2.css",
+    "static/js/main.496afc59.js"
   ]
 }

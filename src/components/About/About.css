@@ -1,6 +1,8 @@
 .about {
+  border: 1px solid #128fc8;
   flex-direction: column;
-  margin-top: -8em;
+  margin-top: -10em;
+  padding-bottom: 50px;
   /* border: 1px solid red; */
 }
 .about>h1{
@@ -26,7 +28,7 @@ color:yellowgreen;
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 19px;
   max-width: 70%;
   /* font-family: 'Courier New', Courier, monospace; */
   font-family:'Poppins', sans-serif
@@ -69,5 +71,9 @@ color:yellowgreen;
     display: flex;
     flex-direction: column;
   }
- 
+  .about__name{
+    color:yellowgreen;
+    
+    
+    }
 }

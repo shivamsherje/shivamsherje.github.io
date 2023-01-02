@@ -4,6 +4,9 @@
 }
 
 .education-body {
+    border: 2px solid #128FC8;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px ;
     display: flex;
     flex-direction: row;
     align-items: center;

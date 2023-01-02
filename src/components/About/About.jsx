@@ -6,7 +6,6 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import { Introduction } from "./Introduction";
-import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
 
 export const About = () => {
@@ -14,11 +13,18 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right">
-         <span className="about__hi"> Hi, I am </span>
+          <br />
+
+          <span className="about__hi"> Hi, I am </span>
+
           <span className="about__name">Shivam Sherje</span>
         </h1>
         <Type />
-        <p  className="about__desc" data-aos="fade-right" style={{"fontFamily":"'Poppins', sans-serif" , textAlign:"justify"}}>
+        <p
+          className="about__desc"
+          data-aos="fade-right"
+          style={{ fontFamily: "'Poppins', sans-serif", textAlign: "justify" }}
+        >
           A Full Stack Developer who loves solving problems and building
           projects. I am equipped with a variety of technologies and tools to
           help me build the best possible product.
@@ -31,17 +37,19 @@ export const About = () => {
             rel="noreferrer"
             className="link link--icon"
           >
-            <GitHubIcon />
+            <GitHubIcon style={{ width: "40px", height: "40px" }} />
           </a>
-          <a
-            href="mailto:shivamsherje@gmail.com"
+
+          {/* <a
+            href="mailto:sherjes49@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="github"
             className="link link--icon"
           >
-            <EmailIcon />
-          </a>
+            <EmailIcon style={{ width: "40px", height: "40px" }} />
+          </a> */}
+
           <a
             href="tel:+917263911096"
             target="_blank"
@@ -49,7 +57,7 @@ export const About = () => {
             aria-label="github"
             className="link link--icon"
           >
-            <PhoneIcon />
+            <PhoneIcon style={{ width: "40px", height: "40px" }} />
           </a>
           <a
             href="https://www.linkedin.com/in/shivam-sherje-996124138/"
@@ -58,13 +66,13 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon />
+            <LinkedInIcon style={{ width: "40px", height: "40px" }} />
           </a>
-        
         </div>
       </div>
       <Introduction />
       <section id="#skills">
+        <br />
         <Techstacks />
       </section>
     </>

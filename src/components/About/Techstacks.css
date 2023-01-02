@@ -2,6 +2,9 @@
   margin-top: 4em;
 }
 .techsection {
+  border-top-left-radius: 50px ;
+  border-bottom-right-radius: 50px ;
+  border: 1px solid #128fc8;
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
@@ -25,9 +28,9 @@
   transition: all 0.5s ease 0s;
 }
 .techsection > div:hover {
-  background-color: #128fc8;
+  /* background-color: white; */
   overflow: hidden;
-  transform: scale(1.09);
+  transform: scale(1.4);
   box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   /* border: 1px solid var(--clr-primary); */

@@ -11,9 +11,9 @@ const EducationCard = ({ id, institution, course, startYear, endYear }) => {
 
             <div key={id} style={{ display: 'flex', flexDirection: "row", gap: "1rem", width: "100%", height: "fit-content", marginBottom: "2rem", border: "3px solid var(--clr-primary)", borderRadius: "30px",boxSizing:"border-box",padding:"1rem", boxShadow: " rgba(0, 0, 0, 0.06) 0px 0px 0px 1px"}}>
                 <div  >
-                    <p>{startYear} - {endYear}</p>
-                    <h5>{course}</h5>
-                    <h4 style={{color:"yellowgreen"}}>{institution}</h4>
+                    <h5>{startYear} - {endYear}</h5>
+                    <h4>{course}</h4>
+                    <h3 style={{color:"yellowgreen"}}>{institution}</h3>
                 </div>
             </div>
 

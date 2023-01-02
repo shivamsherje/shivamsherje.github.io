@@ -10,15 +10,17 @@ export const Introduction = () => {
   return (
     <>
       <section id="#about">
+      <br/>
         <div className="section" data-aos="fade-right">
-          <h2 style={{color:"#128FC8"}} className="section__title">
+          <h2 style={{color:"#2ECBE9" , fontSize:"40px"}}  className="section__title">
             About Me
           </h2>
+        
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
               <img src={om} alt="Images" />
             </div>
-            <div  style={{  textAlign: "justify", fontWeight:"lighter", marginRight:"10px"}} className="introduction_datacontainer">
+            <div  style={{  textAlign: "justify", fontWeight:"lighter"}} className="introduction_datacontainer">
               <p >
                 Hi, I am <span className="different">Shivam Sherje </span> from{" "}
                 <span className="different">Nagpur, Maharashtra</span>. <br/>I am a

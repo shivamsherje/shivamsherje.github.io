@@ -1,6 +1,5 @@
 import React from 'react'
 import './Education.css'
-import logo from "./eduImgBlack.svg"
 import Fade from 'react-reveal/Fade';
 
 const EducationCard = ({ id, institution, course, startYear, endYear }) => {

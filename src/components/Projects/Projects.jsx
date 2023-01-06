@@ -5,21 +5,12 @@ import pluralsight from "../../Assets/images/Pluralsight.png";
 import bluefly from "../../Assets/images/Bluefly.png";
 import bluefly2 from "../../Assets/images/Bluefly-2.png";
 import gymwolf from "../../Assets/images/Gymwolf.png";
-import { FaReact, FaHardHat } from "react-icons/fa";
 import html from "./html.png";
 import css from "./css.png";
 import react from "./react.png";
 import javascript from "./javascript.png";
 import chakraui from "./chakraui.png";
-import {
-  SiChakraui,
-  SiHtml5,
-  SiExpress,
-  SiJavascript,
-  SiMongodb,
-  SiNodedotjs,
-  SiCss3,
-} from "react-icons/si";
+
 
 export const Projects = () => {
   return (

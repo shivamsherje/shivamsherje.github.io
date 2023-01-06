@@ -2,10 +2,8 @@ import React from "react";
 import "./Introduction.css";
 import om from "../../Assets/images/Om.jpg";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
-import { ThemeContext } from "../../Context/theme";
 
 export const Introduction = () => {
-  const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>
@@ -16,7 +14,7 @@ export const Introduction = () => {
             About Me
           </h2>
         
-          <div className={"introduction " + themename}>
+          <div className={"introduction "}>
             <div className="introduction_logocontainer">
               <img src={om} alt="Images" />
             </div>

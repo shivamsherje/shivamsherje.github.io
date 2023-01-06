@@ -3,12 +3,9 @@ import "./Contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { ThemeContext } from "../../Context/theme";
-import { Twitter } from "@material-ui/icons";
 
 import { FaLinkedin } from "react-icons/fa";
 export const Contact = () => {
-  const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>
@@ -18,7 +15,7 @@ export const Contact = () => {
           Get in Touch with
         </h2>
 
-        <div className={"contactcontainer " + themename} data-aos="fade-right">
+        <div className={"contactcontainer "} data-aos="fade-right">
           <a
             href="https://www.linkedin.com/in/shivam-sherje-996124138/"
             target="_blank"
@@ -36,11 +33,14 @@ export const Contact = () => {
           </a>
 
           <a
-            href="mailto:sherjes49@gmail.com"
+            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkVwWncdXcnzRGJxwDtsjbZbnxQzmDztRgHjmVjlWBSLQWscLDlGNdmlDqjWRSBlpDdwg"
             target="_blank"
             rel="noreferrer"
+            // href="mailto:sherjes49@gmail.com"
+
           >
-            <CgMail className="email" />
+            <CgMail className="email"/>
+            <br/>
           </a>
           
           <a href="tel:+917263911096" target="_blank" rel="noreferrer">

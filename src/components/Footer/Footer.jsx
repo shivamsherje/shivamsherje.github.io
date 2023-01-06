@@ -1,16 +1,24 @@
 import React from "react";
 import "./Footer.css";
-import { ThemeContext } from "../../Context/theme";
 
 export const Footer = () => {
-  const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>
-      <div className={"section " + themename}>
-        <a href="https://github.com/shivamsherje" rel="noreferrer" target="_blank">
-          <p className="footer"  >Made By :- Shivam Sherje 🌻</p>
+      <div className={"section "}>
+        <a
+          href="https://github.com/shivamsherje"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <p className="footer">
+            Made By :- Shivam Sherje 🌻 
+          
+          </p>
         </a>
+        <p style={{fontSize:"10px", textAlign:"center"}}>sherjes49@gmail.com</p>
+        <br />
+
       </div>
     </>
   );

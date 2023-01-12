@@ -9,7 +9,7 @@ export const educationData = [
     {
         id: 2,
         institution: '(RTMNU) Nagpur University',
-        course: 'Bachelor of Technology (ME)',
+        course: 'Bachelor of Engineering (ME)',
         startYear: '2018',
         endYear: '2021'
     },

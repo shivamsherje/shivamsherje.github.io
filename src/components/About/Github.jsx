@@ -2,8 +2,6 @@ import React from "react";
 import Githubcalendar from "react-github-calendar";
 
 export const Github = () => {
-
-
   return (
     <>
       <div className={"section"} data-aos="fade-right">
@@ -15,9 +13,9 @@ export const Github = () => {
         </h2>
         <Githubcalendar
           username="shivamsherje"
-          blockSize={15}
+          blockSize={20}
           blockMargin={5}
-          color={"yellowgreen"}
+          color={"#64dd17"}
           fontSize={16}
         />
       </div>

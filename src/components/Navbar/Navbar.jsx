@@ -3,6 +3,7 @@ import "./Navbar.css";
 
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import resume from "../../Assets/pdf/Shivam_Sherje_Resume.pdf";
 
 export const Navbar = () => {
   const [showNavList, setShowNavList] = React.useState(false);
@@ -13,7 +14,12 @@ export const Navbar = () => {
       element.scrollIntoView();
     }
     setShowNavList(!showNavList);
+
   };
+
+  const downloadResume=() =>{
+    window.open("https://drive.google.com/file/d/1kX2R29HLrfiGPsctH7j4LAhke7q_Rv3J/view?usp=share_link")
+  }
   return (
     <>
       <nav style={{ backgroundColor: "#128FC8" }} className="center_nav">
@@ -74,26 +80,17 @@ export const Navbar = () => {
           <li className="nav__list-item">
             <a
               style={{ backgroundColor: "#128FC8" }}
-              href="https://drive.google.com/file/d/1kX2R29HLrfiGPsctH7j4LAhke7q_Rv3J/view?usp=share_link"
-              onClick={toggleNavList}
+              href={resume}
               className="link link--nav"
-              download="resume"
+              download="Shivam_Sherje_Resume"
               target="_blank"
               rel="noreferrer"
+              onClick={downloadResume}
             >
               Resume
             </a>
           </li>
         </ul>
-        {/* <button
-          type="button"
-          onClick={toggeltheme}
-          className="btn btn--icon nav__theme"
-          aria-label="toggle theme"
-          style={{ backgroundColor: "inherit" }}
-        >
-          {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
-        </button> */}
         <button
           type="button"
           onClick={toggleNavList}

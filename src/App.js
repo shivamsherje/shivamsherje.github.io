@@ -17,6 +17,7 @@ import Education from "./components/Education/Education";
 export default function App() {
 
   const [{ themename }] = React.useContext(ThemeContext);
+  
   React.useEffect(() => {
     Aos.init({ duration: 200 });
   }, []);

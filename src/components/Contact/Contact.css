@@ -27,6 +27,8 @@
 .phone:hover {
   color: rgb(49, 236, 49);
 }
+
+
 @media (max-width: 600px) {
   .contactcontainer svg {
     font-size: 2em;
@@ -35,3 +37,4 @@
     font-size: 3rem;
   }
 }
+

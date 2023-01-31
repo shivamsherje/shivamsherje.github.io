@@ -1,7 +1,7 @@
 .main {
   margin-top: 4em;
 }
-.techsection {
+.techsection1 {
   border-top-left-radius: 50px ;
   border-bottom-right-radius: 50px ;
   border: 1px solid #128fc8;
@@ -12,7 +12,7 @@
   /* max-height: 400px; */
 }
 
-.techsection > div {
+.techsection1 > div {
   width: 11%;
   height: 16vh;
   max-height: 140px;
@@ -27,7 +27,7 @@
   align-items: center;
   transition: all 0.5s ease 0s;
 }
-.techsection > div:hover {
+.techsection1 > div:hover {
   /* background-color: white; */
   overflow: hidden;
   transform: scale(1.4);
@@ -37,26 +37,28 @@
   
 }
 
-.techsection > div > svg {
+.techsection1 > div > svg {
   /* height: 50%;
   width: 50%; */
   font-size: 8vh;
   color: var(--clr-primary);
 }
-.techsection > div > h5 {
+.techsection1 > div > h5 {
   position: relative;
   top: 8px;
 }
 
 @media (max-width: 600px) {
-  .techsection {
-    height: 150vh;
+  .techsection1 {
+    height: 154vh;
   }
-  .techsection > div {
+  .techsection1 > div {
     width: 40%;
     margin-right: 5%;
     margin-bottom: 2%;
     height: 18vh;
+    margin-top: 40px;
+    
   }
 
   

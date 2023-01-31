@@ -77,3 +77,9 @@ color:yellowgreen;
     
     }
 }
+
+.resume-buttton-of-about:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+
+}

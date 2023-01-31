@@ -32,10 +32,10 @@ export const Techstacks = () => {
           style={{ color: "#2ECBE9", fontSize: "40px" }}
           className="section__title different"
         >
-          Tech Stack & Tools
+          Tech Stack
         </h2>
 
-        <div className="techsection">
+        <div className="techsection1">
           <div>
             {/* <SiJavascript  /> */}
             <img style={{ width: "70px", height: "70px" }} src={javascript} />
@@ -97,19 +97,9 @@ export const Techstacks = () => {
               Material Ui
             </h5>
           </div>
-          <div>
-            {/* <VscGithub /> */}
-            <img style={{ width: "70px", height: "70px" }} src={git} />
+        
 
-            <h5 style={{ color: "yellowgreen", fontSize: "19px" }}>Git</h5>
-          </div>
-
-          <div>
-            {/* <SiNetlify /> */}
-            <img style={{ width: "70px", height: "70px" }} src={netlify} />
-
-            <h5 style={{ color: "yellowgreen", fontSize: "19px" }}>Netlify</h5>
-          </div>
+        
 
           <div>
             <img style={{ width: "70px", height: "70px" }} src={chakraui} />

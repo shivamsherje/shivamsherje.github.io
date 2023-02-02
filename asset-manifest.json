@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.5ba39c6a.css",
-    "main.js": "/static/js/main.1b77d6b8.js",
+    "main.js": "/static/js/main.bfc3b521.js",
     "static/media/Bluefly-2.png": "/static/media/Bluefly-2.038acf5e41e18686a94a.png",
     "static/media/Bluefly.png": "/static/media/Bluefly.d58a81ecbccd6aa20663.png",
     "static/media/Pluralsight.png": "/static/media/Pluralsight.309a6df90c90205b186f.png",
+    "static/media/sportsline.png": "/static/media/sportsline.6015437928c02fbd63a8.png",
     "static/media/Gymwolf.png": "/static/media/Gymwolf.485e12d1dd1e2c344018.png",
     "static/media/Nordstrom.png": "/static/media/Nordstrom.fdcf23b57fb308149139.png",
     "static/media/netlify-logo-png-transparent.png": "/static/media/netlify-logo-png-transparent.603ef81c872f9df8c343.png",
@@ -20,10 +21,10 @@
     "static/media/vercel.jfif": "/static/media/vercel.0b88f46d04060a0dcf96.jfif",
     "index.html": "/index.html",
     "main.5ba39c6a.css.map": "/static/css/main.5ba39c6a.css.map",
-    "main.1b77d6b8.js.map": "/static/js/main.1b77d6b8.js.map"
+    "main.bfc3b521.js.map": "/static/js/main.bfc3b521.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba39c6a.css",
-    "static/js/main.1b77d6b8.js"
+    "static/js/main.bfc3b521.js"
   ]
 }

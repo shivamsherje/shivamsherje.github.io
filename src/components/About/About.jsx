@@ -78,15 +78,15 @@ export const About = () => {
         <br />
         <a 
         className="resume-buttton-of-about"
-          style={{
-            borderRadius:"10px",
-            backgroundImage: "linear-gradient(#0dccea, #0d70ea)",
-            boxShadow: "rgba(0, 0, 0, .3) 0 5px 15px",
-            color: "#fff",
-            cursor: "pointer",
-            fontSize: "20px",
-            padding:"10px"
-          }}
+          // style={{
+          //   borderRadius:"10px",
+          //   backgroundImage: "linear-gradient(#0dccea, #0d70ea)",
+          //   boxShadow: "rgba(0, 0, 0, .3) 0 5px 15px",
+          //   color: "#fff",
+          //   cursor: "pointer",
+          //   fontSize: "20px",
+          //   padding:"10px"
+          // }}
           href={Resume}
           onClick={downloadResume}
           download="Shivam_Sherje_Resume"

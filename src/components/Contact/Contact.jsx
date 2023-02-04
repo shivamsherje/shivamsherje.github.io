@@ -139,25 +139,26 @@ export const Contact = () => {
             <button
               onSubmit={sendEmail}
               type="submit"
-              style={{
-                margin: "auto",
-                border: "0",
-                borderTopLeftRadius: "30px",
-                borderBottomRightRadius: "30px",
-                backgroundImage: "linear-gradient(#0dccea, #0d70ea)",
-                boxShadow: "rgba(0, 0, 0, .3) 0 5px 15px",
-                color: "#fff",
-                cursor: "pointer",
-                fontSize: ".9em",
-                margin: "5px",
-                padding: "10px 15px",
-                textAlign: "center",
-                userSelect: "none",
-                WebkitUserSelect: "none",
-                touchAction: "manipulation",
-              }}
+              className="resume-buttton-of-contact"
+              // style={{
+              //   margin: "auto",
+              //   border: "0",
+              //   borderTopLeftRadius: "30px",
+              //   borderBottomRightRadius: "30px",
+              //   backgroundImage: "linear-gradient(#0dccea, #0d70ea)",
+              //   boxShadow: "rgba(0, 0, 0, .3) 0 5px 15px",
+              //   color: "#fff",
+              //   cursor: "pointer",
+              //   fontSize: ".9em",
+              //   margin: "5px",
+              //   padding: "10px 15px",
+              //   textAlign: "center",
+              //   userSelect: "none",
+              //   WebkitUserSelect: "none",
+              //   touchAction: "manipulation",
+              // }}
             >
-              SEND-
+              SEND
             </button>
           </form>
         </div>

@@ -38,3 +38,51 @@
   }
 }
 
+.resume-buttton-of-contact:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+
+}
+.resume-buttton-of-contact {
+  display: inline-block;
+  position: relative;
+  color: #128fc8;
+  background: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 10px 20px;
+  /* border: 3px solid #19aae6; */
+  border-radius: 8px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.resume-buttton-of-contact::before {
+  content: "";
+  position: absolute;
+  /* background: #19aae6; */
+  background:linear-gradient(#0dccea, #0d70ea);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.resume-buttton-of-contact:hover {
+  color: #ffffff;
+}
+.resume-buttton-of-contact::before {
+  top: 100%;
+  left: 100%;
+  transition: 0.7s;
+}
+.resume-buttton-of-contact:hover::before {
+  top: -30px;
+  left: -30px;
+}
+.resume-buttton-of-contact:active::before {
+  background: orange;
+  transition: 0s;
+}

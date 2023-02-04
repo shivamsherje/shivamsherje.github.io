@@ -10,7 +10,7 @@ import css from "./css.png";
 import react from "./react.png";
 import javascript from "./javascript.png";
 import chakraui from "./chakraui.png";
-
+import sportsline from "../../Assets/images/sportsline.png";
 
 export const Projects = () => {
   return (
@@ -23,6 +23,85 @@ export const Projects = () => {
         >
           Projects
         </h2>
+
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img src={sportsline} alt="bluefly" />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2 style={{ fontSize: "30px", color: "yellowgreen" }}>
+                {" "}
+                SportsLine Clone
+              </h2>
+              <p style={{ fontSize: "19px" }}>
+                The SportsLine Inc operates as a specialty apparel store. The
+                Company offers sandals, boots, shoes, socks, shirts, shorts,
+                pants, jackets, hats, gloves, bags, sunglasses, and shoe care
+                products.
+                <p
+                  style={{
+                    color: " #8F8F8F",
+                    marginTop: "15px",
+                    // marginBottom: "-5px",
+                    fontSize: "19px",
+                  }}
+                >
+                  Tech Stack
+                </p>
+              </p>
+              <div>
+                {/* <FaReact /> */}
+                {/* <SiJavascript /> */}
+                {/* <SiChakraui /> */}
+                {/* <SiHtml5 /> */}
+                {/* <SiCss3 /> */}
+
+                <img style={{ width: "50px", height: "50px" }} src={html} />
+                <img style={{ width: "50px", height: "50px" }} src={css} />
+                <img
+                  style={{ width: "50px", height: "50px" }}
+                  src={javascript}
+                />
+                <img style={{ width: "50px", height: "50px" }} src={react} />
+                <img style={{ width: "50px", height: "50px" }} src={chakraui} />
+
+
+              </div>
+              <div>
+                <a
+                  href="https://statuesque-chickens-777.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span
+                    type="button"
+                    style={{ color: "#2ECBE9", fontSize: "19px" }}
+                    className="btn btn--outline onbt"
+                  >
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/shivamsherje/statuesque-chickens-777-"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span
+                    type="button"
+                    style={{ color: "#2ECBE9", fontSize: "19px" }}
+                    className="btn btn--outline"
+                  >
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">

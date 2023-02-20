@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ba39c6a.css",
-    "main.js": "/static/js/main.9c30dcaa.js",
+    "main.css": "/static/css/main.ca9eac03.css",
+    "main.js": "/static/js/main.dafe2e72.js",
     "static/media/Bluefly-2.png": "/static/media/Bluefly-2.038acf5e41e18686a94a.png",
     "static/media/Bluefly.png": "/static/media/Bluefly.d58a81ecbccd6aa20663.png",
     "static/media/Pluralsight.png": "/static/media/Pluralsight.309a6df90c90205b186f.png",
@@ -20,11 +20,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.6835c61a518a732eb8318d43dfe8f700.svg",
     "static/media/vercel.jfif": "/static/media/vercel.0b88f46d04060a0dcf96.jfif",
     "index.html": "/index.html",
-    "main.5ba39c6a.css.map": "/static/css/main.5ba39c6a.css.map",
-    "main.9c30dcaa.js.map": "/static/js/main.9c30dcaa.js.map"
+    "main.ca9eac03.css.map": "/static/css/main.ca9eac03.css.map",
+    "main.dafe2e72.js.map": "/static/js/main.dafe2e72.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ba39c6a.css",
-    "static/js/main.9c30dcaa.js"
+    "static/css/main.ca9eac03.css",
+    "static/js/main.dafe2e72.js"
   ]
 }

@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca9eac03.css",
-    "main.js": "/static/js/main.dafe2e72.js",
+    "main.css": "/static/css/main.517f9f9d.css",
+    "main.js": "/static/js/main.5ed974d8.js",
     "static/media/Bluefly-2.png": "/static/media/Bluefly-2.038acf5e41e18686a94a.png",
     "static/media/Bluefly.png": "/static/media/Bluefly.d58a81ecbccd6aa20663.png",
     "static/media/Pluralsight.png": "/static/media/Pluralsight.309a6df90c90205b186f.png",
     "static/media/sportsline.png": "/static/media/sportsline.6015437928c02fbd63a8.png",
     "static/media/Gymwolf.png": "/static/media/Gymwolf.485e12d1dd1e2c344018.png",
+    "static/media/advance-auto-parts.png": "/static/media/advance-auto-parts.22a4e512b8e8f2bda268.png",
     "static/media/Nordstrom.png": "/static/media/Nordstrom.fdcf23b57fb308149139.png",
+    "static/media/Screenshot (386).png": "/static/media/Screenshot (386).d3dbff36ede60b361f2b.png",
     "static/media/netlify-logo-png-transparent.png": "/static/media/netlify-logo-png-transparent.603ef81c872f9df8c343.png",
     "static/media/Shivam_Sherje_Resume.pdf": "/static/media/Shivam_Sherje_Resume.a243dfa5277ffe53f92a.pdf",
     "static/media/png-transparent-js-logo-node-logos-and-brands-icon.png": "/static/media/png-transparent-js-logo-node-logos-and-brands-icon.637f7fcf99c0c459c2ce.png",
@@ -20,11 +22,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.6835c61a518a732eb8318d43dfe8f700.svg",
     "static/media/vercel.jfif": "/static/media/vercel.0b88f46d04060a0dcf96.jfif",
     "index.html": "/index.html",
-    "main.ca9eac03.css.map": "/static/css/main.ca9eac03.css.map",
-    "main.dafe2e72.js.map": "/static/js/main.dafe2e72.js.map"
+    "main.517f9f9d.css.map": "/static/css/main.517f9f9d.css.map",
+    "main.5ed974d8.js.map": "/static/js/main.5ed974d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca9eac03.css",
-    "static/js/main.dafe2e72.js"
+    "static/css/main.517f9f9d.css",
+    "static/js/main.5ed974d8.js"
   ]
 }

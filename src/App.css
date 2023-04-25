@@ -3,21 +3,10 @@
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
-  /* background-color: var(--clr-bg); */
-  /* background-color: #21D4FD; */
   background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
 }
 
-/* .light {
-  --clr-bg: 
-  #eaeaea;
-  --clr-bg-alt:  #eaeaea;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary:
-  #80618c;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-} */
+
 
 .dark {
   --clr-bg: #23283e;
@@ -91,79 +80,13 @@ main {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem; 
-  /* transition: transform 0.2s ease-in-out; */
 } 
-
-/* .btn--outline {
-  color: var(--clr-primary);
-  border: 2px solid var(--clr-primary);
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}  */
-
-/* .btn--outline:hover,
-.btn--outline:focus {
-  color: var(--clr-bg);
-} */
-
-/* .btn--outline:before {
-  content: "";
-  position: absolute;
-  background-color: var(--clr-primary);
-  right: 100%;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  z-index: -1; */
-  /* transition: right 0.2s ease-in-out; */
-/* } */
-
-/* .btn--outline:hover:before,
-.btn--outline:focus:before {
-  right: 0;
-} */
-
-/* .btn--plain { */
-  /* text-transform: initial; */
-  /* background-color: var(--clr-bg-alt);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  border: 0; */
-/* } */
-
-/* .btn--plain:hover { */
-  /* transform: translateY(-4px); */
-/* } */
-
-/* .btn--icon {
-  padding: 0;
-} */
-
-/* .btn--icon:hover,
-.btn--icon:focus {
-  color: var(--clr-primary);
-} */
-
-.btn--icon:active {
-  /* transform: translateY(-5px); */
-}
-
-
 
 .btn:hover{
   transform: scale(1.8);
   overflow: hidden;
 
 }
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 600px) {
   .section {

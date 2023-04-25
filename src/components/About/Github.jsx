@@ -9,7 +9,7 @@ export const Github = () => {
           style={{ color: "#2ECBE9", fontSize: "40px" }}
           className="section__title different"
         >
-          Days I Code
+          Github Calendar
         </h2>
         <Githubcalendar
           username="shivamsherje"

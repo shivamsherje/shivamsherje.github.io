@@ -39,7 +39,7 @@ export const Contact = () => {
           style={{ color: "#2ECBE9" }}
           data-aos="fade-right"
         >
-          Contact Me
+          Contact 
         </h2>
 
         <div className={"contactcontainer "} data-aos="fade-right">
@@ -91,7 +91,7 @@ export const Contact = () => {
               fontWeight: "lighter",
             }}
           >
-            -Get In Touch-
+            
           </p>
           <br />
           <form ref={form} onSubmit={sendEmail}>

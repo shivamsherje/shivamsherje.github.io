@@ -3,8 +3,8 @@ import "./Navbar.css";
 
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import resume from "../../Assets/pdf/Shivam_Sherje_Resume.pdf";
-
+import resume from "../../Assets/pdf/fw20_0912-Shivam-Sherje-Resume.pdf";
+import closebutton from "../../Assets/images/Picsart_23-02-28_13-21-18-218.png";
 export const Navbar = () => {
   const [showNavList, setShowNavList] = React.useState(false);
 
@@ -14,12 +14,14 @@ export const Navbar = () => {
       element.scrollIntoView();
     }
     setShowNavList(!showNavList);
-
   };
 
-  const downloadResume=() =>{
-    window.open("https://drive.google.com/file/d/1kX2R29HLrfiGPsctH7j4LAhke7q_Rv3J/view?usp=share_link")
-  }
+  const downloadResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1kX2R29HLrfiGPsctH7j4LAhke7q_Rv3J/view?usp=share_link"
+    );
+  };
+  
   return (
     <>
       <nav style={{ backgroundColor: "#128FC8" }} className="center_nav">
@@ -27,6 +29,11 @@ export const Navbar = () => {
           style={{ display: showNavList ? "flex" : null }}
           className="nav__list"
         >
+          <li href="#home" onClick={() => toggleNavList("#home")}>
+            <div className="closebutton">
+              <img style={{ width: "25px" }} src={closebutton} />
+            </div>
+          </li>
           <li className="nav__list-item">
             <a
               style={{ backgroundColor: "#128FC8" }}
@@ -82,7 +89,7 @@ export const Navbar = () => {
               style={{ backgroundColor: "#128FC8" }}
               href={resume}
               className="link link--nav"
-              download="Shivam_Sherje_Resume"
+              download="fw20_0912-Shivam-Sherje-Resume"
               target="_blank"
               rel="noreferrer"
               onClick={downloadResume}
@@ -97,7 +104,7 @@ export const Navbar = () => {
           className="btn btn--icon nav__hamburger"
           aria-label="toggle navigation"
         >
-          {showNavList ? <CloseIcon /> : <MenuIcon />}
+          {showNavList ? <CloseIcon /> : <MenuIcon fontSize="30px" />}
         </button>
       </nav>
     </>

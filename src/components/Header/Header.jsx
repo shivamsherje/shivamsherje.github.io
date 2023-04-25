@@ -15,8 +15,8 @@ import "./Header.css";
           Shivam
           </a>
         </h3>
-        <Navbar />
-    
+        <Navbar/>
+  
       </div>
  
   );

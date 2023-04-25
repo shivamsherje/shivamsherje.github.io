@@ -31,7 +31,6 @@ export default function App() {
         <About />
        
         <Education/>
-        {/* <Techstacks/> */}
         <section id="#projects">
         <br/>
           <Projects />

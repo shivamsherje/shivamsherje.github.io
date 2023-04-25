@@ -1,37 +1,40 @@
 import React from "react";
 import "./Introduction.css";
 import om from "../../Assets/images/Om.jpg";
-import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
 export const Introduction = () => {
-
   return (
     <>
       <section id="#about">
-      <br/>
+        <br />
         <div className="section" data-aos="fade-right">
-          <h2 style={{color:"#2ECBE9" , fontSize:"40px"}}  className="section__title">
+          <h2
+            style={{ color: "#2ECBE9", fontSize: "40px" }}
+            className="section__title"
+          >
             About Me
           </h2>
-        
+
           <div className={"introduction "}>
             <div className="introduction_logocontainer">
               <img src={om} alt="Images" />
             </div>
-            <div  style={{  textAlign: "justify", fontWeight:"lighter"}} className="introduction_datacontainer">
-              <p >
+            <div
+              style={{ fontWeight: "lighter" }}
+              className="introduction_datacontainer"
+            >
+              <p>
                 Hi, I am <span className="different">Shivam Sherje </span> from{" "}
-                <span className="different">Nagpur, Maharashtra</span>. <br/>I am a
-                Full-Stack Web Developer from India with a Mechanical
-                Engineering degree. I enjoy creating scalable web applications
-                and am constantly interested in learning new technologies. Using
-                Javascript, React , CSS , HTML , I created clones of a few
-                websites. I have developed excellent problem-solving skills that
-                are required to solve complex problems because I am eager to
-                learn and apply my abilities on a large scale. I have also
-                solved maths problems to solve software engineering problems.
-                Looking for a role as web developer and hoping to contribute to
-                the growth of an organisation.
+                <span className="different">Nagpur, Maharashtra</span>. <br />I
+                am a full-stack web developer in India .I have a degree in
+                mechanical engineering. I like building scalable online
+                applications, and I'm always curious to learn about new
+                technologies. I made clones of a few websites using HTML, CSS,
+                Javascript, React, and other technologies. I am motivated to
+                learn and apply my talents on a big scale, thus I have developed
+                exceptional problem-solving abilities that are necessary to
+                overcome complicated challenges. searching for a position as a
+                web developer in order to help an organisation and build my carrer.
               </p>
             </div>
           </div>

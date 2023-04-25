@@ -1,16 +1,9 @@
 import React from "react";
 import "./Techstacks.css";
-// import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
-  SiRedux,
-  SiHtml5,
+
   SiMaterialui,
-  SiExpress,
-  SiRedis,
-  SiTailwindcss,
-  SiNetlify,
-  SiPostman,
-  SiChakraui,
+ 
 } from "react-icons/si";
 
 import javascript from "../../Assets/images/javascript.png";

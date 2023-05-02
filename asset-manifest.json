@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.517f9f9d.css",
-    "main.js": "/static/js/main.5ed974d8.js",
+    "main.js": "/static/js/main.1e47e9d2.js",
     "static/media/Bluefly-2.png": "/static/media/Bluefly-2.038acf5e41e18686a94a.png",
     "static/media/Bluefly.png": "/static/media/Bluefly.d58a81ecbccd6aa20663.png",
     "static/media/Pluralsight.png": "/static/media/Pluralsight.309a6df90c90205b186f.png",
@@ -11,7 +11,7 @@
     "static/media/Nordstrom.png": "/static/media/Nordstrom.fdcf23b57fb308149139.png",
     "static/media/Screenshot (386).png": "/static/media/Screenshot (386).d3dbff36ede60b361f2b.png",
     "static/media/netlify-logo-png-transparent.png": "/static/media/netlify-logo-png-transparent.603ef81c872f9df8c343.png",
-    "static/media/Shivam_Sherje_Resume.pdf": "/static/media/Shivam_Sherje_Resume.a243dfa5277ffe53f92a.pdf",
+    "static/media/fw20_0912-Shivam-Sherje-Resume.pdf": "/static/media/fw20_0912-Shivam-Sherje-Resume.fcac362e3c73e4ca1006.pdf",
     "static/media/png-transparent-js-logo-node-logos-and-brands-icon.png": "/static/media/png-transparent-js-logo-node-logos-and-brands-icon.637f7fcf99c0c459c2ce.png",
     "static/media/postman.png": "/static/media/postman.37d796eade3f09e128ab.png",
     "static/media/Om.jpg": "/static/media/Om.0a750ee73d1dfb8a451e.jpg",
@@ -23,10 +23,10 @@
     "static/media/vercel.jfif": "/static/media/vercel.0b88f46d04060a0dcf96.jfif",
     "index.html": "/index.html",
     "main.517f9f9d.css.map": "/static/css/main.517f9f9d.css.map",
-    "main.5ed974d8.js.map": "/static/js/main.5ed974d8.js.map"
+    "main.1e47e9d2.js.map": "/static/js/main.1e47e9d2.js.map"
   },
   "entrypoints": [
     "static/css/main.517f9f9d.css",
-    "static/js/main.5ed974d8.js"
+    "static/js/main.1e47e9d2.js"
   ]
 }
